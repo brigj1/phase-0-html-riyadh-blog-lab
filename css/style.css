@@ -6,7 +6,14 @@ html, body {
 }
 
 body {
+  /*
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-color: #b2b2b2;
+  */
+  background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -56,7 +63,7 @@ p {
 }
 
 a {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
